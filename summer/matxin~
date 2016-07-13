@@ -1,0 +1,86 @@
+Matxin
+
+dependancy analysis tree
+
+translation between distant languages
+	freeling for analysis
+	
+
+non projective tree sturctures
+fst
+
+morph analysis and disambiguation
+
+any ependency parser can be intergrated (adapt output)
+
+apertium tools can be used to make analyser from scratch
+
+TREE STRUC
+	-Input sent diveded into sentences and nodes.
+	-Set of mand attributes(form,lemma, position, morph info, depend type)
+	-as many optional values as wanted
+	-optional shallow parsing
+
+TRAN DEP PARSING
+
+	-shift, right-arc, left-arc
+	-on traing learn a model to decide what is most suitable transition
+
+MUTTI-WORD IDENT
+	-identification fo multi0words makes lexical transfer easier
+	-freeling - spanish mult
+	-stanford - none, but has token regex
+	
+simple rules to decide if a head-cild pair are part fo the same chunk.
+	-head(prep), child(noun)
+
+improving analysis
+	-incorporate a trainable statistical dependancy parser
+	-able to train a parse nased on corpus
+	-universal dependency treebank
+	-more sophisticated chunking tagger
+
+up pipe?
+
+
+
+TRANSFER
+ambiguous translation with preference order
+dic translations allow small structural modification
+	source nodes translate several nodes
+	source nodes without target equivalent
+selection rules based on very local content
+
+
+BIL DICS
+apertium libraries
+tags of APERT used to define XML attributes
+paradigms used to define tag equivalencies
+	allows to use dif tagsets for each lang
+	easier to use heterogeneous resources
+
+new XSLT rules fo rtransfer
+	flexibility to define transformations in tree
+pipeline allows to add specific modules
+	verb-transfer
+not widely used in stable language pairs
+	fw changes in dependency structure
+
+VERB TRANS	
+verb phrase very dif
+specific module to trans verb phrases
+
+PREP TRANS
+more ambiguity
+closely related to traget syntax
+dif prep depending on verb
+	THREE STEPS
+		- selction based on local context
+		- target lang verb subcategorization
+		- verb-prep-noun triplets
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+Lexical ambiguity and pos tagging
+
+not to be confused with polysemy - same lemma and pos with several meanings (bank)
+
+statistical based hidden markov models 
+	- more probable to find a noun after a determinant
+	- visible -> word
+	- hidden -> hidden states that correspond to possible pos (find most probable path)
+
+ambiguity within same part of speech
+
+when defining a tagset you have to 
+
+learning curve fo models*
+
+
+
+
+RULE BASED DISAMB.
+
+more than one possible analysis of surface form
+
+(Fred Karlsson) - Contraint grammar
+
+cohort - surface form of word with its analyses
+
+naseform - lemma of word
+
+
+operations:
+	REMOVE
+	SELECT
+contexts:
+	0, -1, 2*, 1c (careful)
+ex. No two finites verbs in the same clause (two imperatives cannot follow each other)
+	(1c V-FIN)
+(0 DET): current word can be det
+If the word is NP - preceeded by det
+RUS -> $$ symbol for unification - write all possible combinations 
+	noun should agree with finite verb
+	pronouns looking for intersection of possible cases
+
+
+LEXICAL TRANSFER
+
+Bilingual dictionary (source words with pos and target words with pos)
+left to right vs. right to left
+
+using paradigms
+	ex. basque - english pis (weight, floor) 
+		- num -> likely floor
+
+LEXICAL SEELECTION
+
+source lang -> target lang, context
+operation SELECT or REMOVE
+
+LIMITATIONS
+
+no recursive patterns
+echo "..." | sed
+eco "..." | grep

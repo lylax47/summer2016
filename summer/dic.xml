@@ -1,0 +1,38 @@
+<dictionary>
+  <sdefs>
+    <sdef n="mi"     c="Morphological information"/>
+    <sdef n="pos"    c="Part of speech"/>
+    <sdef n="nbr"    c="Number"/>
+    <sdef n="prs"    c="Person"/>
+    <sdef n="cas"    c="Case"/>
+    <sdef n="tns"    c="Tense"/>
+  </sdefs> 
+
+
+  <section id="main" type="standard">
+  	<e><p><l>АЛГОРИТМ<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+    <e><p><l>.<s n="mi"/>.</l><r>.<s n="pos"/>punct</r></p></e>
+  	<!-- <e><re>[\.\',\?:;\\-–\"\(\)\[\]]</re><p><l><s n="mi"/>adv</l><r><s n="pos"/>adv</r></p></e> -->
+  	<e><p><l>ОТ<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>ИМЕНИ<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>УЧЁНОГО<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>АЛЬ<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>ХОРЕЗМИ<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>ТОЧНЫЙ<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>НАБОР<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>ОПИСЫВАТЬ<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>ПОРЯДОК<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>ДЕЙСТВИЕ<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>ИСПОЛЬНИТЕЛЬ<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>ДЛЯ<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>ДОСТИЖЕНИЕ<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>РЕЗУЛЬТАТ<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>РЕШЕНИЕ<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>ЗАДАЧА<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>ЗА<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>КОНЕЧНЫЙ<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  	<e><p><l>ВРЕМЯ<s n="mi"/>adv</l><r>yesterday<s n="pos"/>adv</r></p></e>
+  </section>
+
+
+</dictionary>

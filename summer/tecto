@@ -1,0 +1,15 @@
+Chimera model (moses + tectomt + 
+
+universal dependencies treebank
+
+good for morpho rich distantly related languages
+
+using xml for data files
+OOP API
+tecto grammatical theory (transfer meaning of sentence)
+
+current framework treex -> Udapi
+
+fill formens (поехали [они])
+label attachment score
+tensors

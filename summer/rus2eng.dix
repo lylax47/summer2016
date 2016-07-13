@@ -1,0 +1,59 @@
+<dictionary>
+  <sdefs>
+    <sdef n="mi"     c="Morphological information"/>
+    <sdef n="pos"    c="Part of speech"/>
+    <sdef n="nbr"    c="Number"/>
+    <sdef n="prs"    c="Person"/>
+    <sdef n="cas"    c="Case"/>
+    <sdef n="tns"    c="Tense"/>
+    <sdef n="sense"  c="Preference order"/>
+  </sdefs> 
+
+
+  <section id="main" type="standard">
+    <e><p><l>.<s n="mi"/>.</l><r>.<s n="pos"/>punct</r></p></e>
+    <e><p><l>"<s n="mi"/>"</l><r>"<s n="pos"/>punct</r></p></e>
+    <e><p><l>'<s n="mi"/>'</l><r>'<s n="pos"/>punct</r></p></e>
+    <e><p><l>(<s n="mi"/>(</l><r>(<s n="pos"/>punct</r></p></e>
+    <e><p><l>)<s n="mi"/>)</l><r>)<s n="pos"/>punct</r></p></e>
+    <e><p><l>?<s n="mi"/>?</l><r>?<s n="pos"/>punct</r></p></e>
+    <e><p><l>!<s n="mi"/>!</l><r>!<s n="pos"/>punct</r></p></e>
+    <e><p><l>«<s n="mi"/>«</l><r>«<s n="pos"/>punct</r></p></e>
+    <e><p><l>»<s n="mi"/>»</l><r>»<s n="pos"/>punct</r></p></e>
+    <e><p><l>…<s n="mi"/>…</l><r>…<s n="pos"/>punct</r></p></e>
+    <e><p><l>,<s n="mi"/>,</l><r>,<s n="pos"/>punct</r></p></e>
+    <e><p><l>-<s n="mi"/>-</l><r>-<s n="pos"/>punct</r></p></e>
+    <e><p><l>—<s n="mi"/>—</l><r>—<s n="pos"/>punct</r></p></e>
+    <e><p><l>...<s n="mi"/>...</l><r>...<s n="pos"/>punct</r></p></e>
+    <e><p><l>АЛГОРИТМ<s n="mi"/>Inan|Nom|Masc|Sing</l><r>algorithm<s n="pos"/>noun</r></p></e>
+  	<e><p><l>ОТ<s n="mi"/>_</l><r>from<s n="pos"/>prep</r></p></e>
+  	<e><p><l>ИМЯ<s n="mi"/>Inan|Gen|Neut|Sing</l><r>name<s n="pos"/>noun</r></p></e>
+  	<e><p><l>УЧЁНЫЙ<s n="mi"/>Anim|Gen|Masc|Sing</l><r>scientist<s n="sense"/>1<s n="pos"/>noun</r></p></e>
+    <e><p><l>УЧЁНЫЙ<s n="mi"/>Anim|Gen|Masc|Sing</l><r>scholar<s n="sense"/>2<s n="pos"/>noun</r></p></e>
+  	<e><p><l>АЛЬ<s n="mi"/>_</l><r>Al<s n="pos"/>noun</r></p></e>
+  	<e><p><l>ХОРЕЗМИ<s n="mi"/>Anim|Gen|Masc|Sing</l><r>Juarismi<s n="pos"/>nounent</r></p></e>
+  	<e><p><l>ТОЧНЫЙ<s n="mi"/>Nom|Pos|Masc|Sing</l><r>exact<s n="pos"/>noun</r></p></e>
+  	<e><p><l>НАБОР<s n="mi"/>Inan|Nom|Masc|Sing</l><r>set<s n="pos"/>noun</r></p></e>
+    <e><p><l>ИНСТРУКЦИЯ<s n="mi"/>Inan|Nom|Masc|Sing</l><r>instruction<s n="pos"/>noun</r></p></e>
+  	<e><p><l>ОПИСЫВАТЬ<s n="mi"/>Imp|Gen|Plur|Pres|VerbPart|Act</l><r>describe<s n="sense"/>1<s n="pos"/>verb</r></p></e>
+    <e><p><l>ОПИСЫВАТЬ<s n="mi"/>Imp|Gen|Plur|Pres|VerbPart|Act</l><r>outline<s n="sense"/>2<s n="pos"/>verb</r></p></e>
+  	<e><p><l>ПОРЯДОК<s n="mi"/>Inan|Acc|Masc|Sing</l><r>order<s n="pos"/>noun</r></p></e>
+  	<e><p><l>ДЕЙСТВИЕ<s n="mi"/>Inan|Gen|Neut|Plur</l><r>action<s n="pos"/>noun</r></p></e>
+  	<e><p><l>ИСПОЛЬНИТЕЛЬ<s n="mi"/>Anim|Gen|Masc|Sing</l><r>performer<s n="sense"/>1<s n="pos"/>noun</r></p></e>
+    <e><p><l>ИСПОЛЬНИТЕЛЬ<s n="mi"/>Anim|Gen|Masc|Sing</l><r>executor<s n="sense"/>2<s n="pos"/>noun</r></p></e>
+  	<e><p><l>ДЛЯ<s n="mi"/>_</l><r>for<s n="pos"/>prep</r></p></e>
+  	<e><p><l>ДОСТИЖЕНИЕ<s n="mi"/>Inan|Gen|Neut|Sing</l><r>achievement<s n="sense"/>1<s n="pos"/>noun</r></p></e>
+    <e><p><l>ДОСТИЖЕНИЕ<s n="mi"/>Inan|Gen|Neut|Sing</l><r>attainment<s n="sense"/>2<s n="pos"/>noun</r></p></e>
+  	<e><p><l>РЕЗУЛЬТАТ<s n="mi"/>Inan|Gen|Masc|Sing</l><r>result<s n="pos"/>noun</r></p></e>
+  	<e><p><l>РЕШЕНИЕ<s n="mi"/>Inan|Gen|Neut|Sing</l><r>solution<s n="sense"/>1<s n="pos"/>noun</r></p></e>
+    <e><p><l>РЕШЕНИЕ<s n="mi"/>Inan|Gen|Neut|Sing</l><r>solving<s n="sense"/>2<s n="pos"/>noun</r></p></e>
+  	<e><p><l>ЗАДАЧА<s n="mi"/>Inan|Gen|Fem|Sing</l><r>problem<s n="sense"/>1<s n="pos"/>noun</r></p></e>
+    <e><p><l>ЗАДАЧА<s n="mi"/>Inan|Gen|Fem|Sing</l><r>task<s n="sense"/>2<s n="pos"/>noun</r></p></e>
+  	<e><p><l>ЗА<s n="mi"/>_</l><r>for<s n="sense"/>1<s n="pos"/>prep</r></p></e>
+    <e><p><l>ЗА<s n="mi"/>_</l><r>over<s n="sense"/>2<s n="pos"/>prep</r></p></e>
+    <e><p><l>ЗА<s n="mi"/>_</l><r>behind<s n="sense"/>3<s n="pos"/></r></p></e>
+  	<e><p><l>КОНЕЧНЫЙ<s n="mi"/>Acc|Pos|Neut|Sing</l><r>terminal<s n="sense"/>1<s n="pos"/>noun</r></p></e>
+    <e><p><l>КОНЕЧНЫЙ<s n="mi"/>Acc|Pos|Neut|Sing</l><r>finite<s n="sense"/>2<s n="pos"/>noun</r></p></e>
+  	<e><p><l>ВРЕМЯ<s n="mi"/>Inan|Acc|Neut|Sing</l><r>time<s n="pos"/>noun</r></p></e>
+  </section>
+</dictionary>

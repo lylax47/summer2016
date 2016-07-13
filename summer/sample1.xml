@@ -1,0 +1,45 @@
+<corpus>
+  <SENTENCE ord="1" alloc="0">
+       <NODE ord="12" alloc="0" form="набор" lem="НАБОР" mi="Inan|Nom|Masc|Sing" si="root">
+         <NODE ord="1" alloc="0" form="Алгоритм" lem="АЛГОРИТМ" mi="Inan|Nom|Masc|Sing" si="nsubj">
+           <NODE ord="2" alloc="0" form="," lem="," mi="," si="punct"/>
+           <NODE ord="4" alloc="0" form="имени" lem="ИМЯ" mi="Inan|Gen|Neut|Sing" si="conj">
+             <NODE ord="3" alloc="0" form="от" lem="ОТ" mi="_" si="case"/>
+             <NODE ord="5" alloc="0" form="учёного" lem="УЧЕНЫЙ" mi="Anim|Gen|Masc|Sing" si="nmod">
+               <NODE ord="6" alloc="0" form="аль" lem="АЛЬ" mi="_" si="appos">
+                 <NODE ord="7" alloc="0" form="-" lem="-" mi="-" si="punct"/>
+                 <NODE ord="8" alloc="0" form="Хорезми" lem="ХОРЕЗМИ" mi="Anim|Gen|Masc|Sing" si="name">
+                   <NODE ord="9" alloc="0" form="," lem="," mi="," si="punct"/>
+                   <NODE ord="10" alloc="0" form="-" lem="-" mi="-" si="punct"/>
+                 </NODE>
+               </NODE>
+             </NODE>
+           </NODE>
+         </NODE>
+         <NODE ord="11" alloc="0" form="точный" lem="ТОЧНЫЙ" mi="Nom|Pos|Masc|Sing" si="amod"/>
+         <NODE ord="13" alloc="0" form="инструкций" lem="ИНСТРУКЦИЯ" mi="Inan|Gen|Fem|Plur" si="nmod">
+           <NODE ord="14" alloc="0" form="," lem="," mi="," si="punct"/>
+           <NODE ord="15" alloc="0" form="описывающих" lem="ОПИСЫВАТЬ" mi="Imp|Gen|Plur|Pres|VerbPart|Act" si="amod">
+             <NODE ord="16" alloc="0" form="порядок" lem="ПОРЯДОК" mi="Inan|Acc|Masc|Sing" si="dobj">
+               <NODE ord="17" alloc="0" form="действий" lem="ДЕЙСТВИЕ" mi="Inan|Gen|Neut|Plur" si="nmod">
+                 <NODE ord="18" alloc="0" form="исполнителя" lem="ИСПОЛНИТЕЛЬ" mi="Anim|Gen|Masc|Sing" si="nmod"/>
+               </NODE>
+               <NODE ord="20" alloc="0" form="достижения" lem="ДОСТИЖЕНИЕ" mi="Inan|Gen|Neut|Sing" si="nmod">
+                 <NODE ord="19" alloc="0" form="для" lem="ДЛЯ" mi="_" si="case"/>
+                 <NODE ord="21" alloc="0" form="результата" lem="РЕЗУЛЬТАТ" mi="Inan|Gen|Masc|Sing" si="dobj">
+                   <NODE ord="22" alloc="0" form="решения" lem="РЕШЕНИЕ" mi="Inan|Gen|Neut|Sing" si="nmod">
+                     <NODE ord="23" alloc="0" form="задачи" lem="ЗАДАЧА" mi="Inan|Gen|Fem|Sing" si="dobj"/>
+                   </NODE>
+                 </NODE>
+                 <NODE ord="26" alloc="0" form="время" lem="ВРЕМЯ" mi="Inan|Acc|Neut|Sing" si="nmod">
+                   <NODE ord="24" alloc="0" form="за" lem="ЗА" mi="_" si="case"/>
+                   <NODE ord="25" alloc="0" form="конечное" lem="КОНЕЧНЫЙ" mi="Acc|Pos|Neut|Sing" si="amod"/>
+                 </NODE>
+               </NODE>
+             </NODE>
+           </NODE>
+         </NODE>
+         <NODE ord="27" alloc="0" form="." lem="." mi="." si="punct"/>
+       </NODE>
+  </SENTENCE>
+</corpus>

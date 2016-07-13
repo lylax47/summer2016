@@ -1,0 +1,12 @@
+Lexical ambiguity and pos tagging
+
+not to be confused with polysemy - same lemma and pos with several meanings (bank)
+
+statistical based hidden markov models 
+	- more probable to find a noun after a determinant
+	- visible -> word
+	- hidden -> hidden states that correspond to possible pos (find most probable path)
+
+ambiguity within same part of speech
+
+when defining a tagset you have to 
